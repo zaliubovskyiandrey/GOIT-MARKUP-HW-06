@@ -678,6 +678,10 @@ margin-bottom: 16px;
     .social-media-title{
         width: 40px;
         height: 40px;
+        
+    }
+    .Social-media{
+        margin-right: 80px;
     }
     
    .socials-link-footer {
@@ -696,25 +700,66 @@ margin-bottom: 16px;
    .socials-link-footer:hover,
    .socials-link-footer:focus {
        background-color: #31d0aa;}
-/* 
-       /* .subscribe-social-footer{
-            font-weight: 500px;
-            font-size: 16px;
+      
+       
+     /* Subscribe */
+    .subscribe{
+     display: flex;
+     color: var(--White-background);
+        
+       }
+
+    .subscribe-social-footer{
+            
+     font-weight: 500px;
+     font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+     color: #FFFFFF;
+    margin-bottom: 16px;
+
+       }
+    .button-subscribe{
+     display:         
+     justify-content: center;
+     align-items: center;          
+     gap: 16px;
+     width: 165px;
+     height: 40px;
+     font-size: 16px;
+     line-height: 24px;
+     color: var(--White-background);
+     background-color: var(--Primary-Brand);
+     border-radius: 4px;
+     border: none;
+     
+                
+       }
+       .email-form{     
+       
+        
+             } 
+        .subscribe-input{
+            display:flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            width: 264px;
+            height:  40px;        
+            font-weight: 400;
+            font-size: 12px;
             line-height: 24px;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-            margin-bottom: 16px;
+            padding-left: 16px;
+            color: var(--White-background);
+            background-color: var(--Dark);
+            border-radius: 4px;
+            border: 1px solid #FFFFFF;
+        }
+         .subscribe-icon{
+            width: 24px;
+            height: 24px;
+            fill: var(--Modal-background);
 
-       }
-       .button-subscribe{
-        weight: 165px;
-        size: 40px;
-       }
-       .email-form{
-        weight: 264px;
-            /* size: 40px;  
-
-         } */
+         }
 
        /* Modal styles */
            .backdrop {           
