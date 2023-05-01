@@ -427,28 +427,37 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <button  class="modal-btn" type="button" data-modal-close>
+      <button  class="modal-btn-close" type="button" data-modal-close>
       <svg class="modal-icon" width="408" height="584">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
       </button>
       <div><strong class="title-modal">Leave your contacts and we will call you back</strong>
       <form name="contact-form"> 
-      <label for="user_name">Name</label>
+      <label class="title-modal-input" for="user_name">Name</label>
       <div class="modal-form-field">
-        <input type="text" name="" id=""> <svg class=" " width="20" height="20">
+        <input class="modal-form-input" type="text" name="" id=""> <svg class="modal-form-icon" width="12" height="12">
         <use href="./images/icons.svg#Name"></use>
       </svg></div>
-      <label for="user_phone">Phone</label>
-      <div><input type="text" name="" id=""> <svg class=" " width="20" height="20">
+      <label class="title-modal-input" for="user_phone">Phone</label>
+      <div class="modal-form-field"><input class="modal-form-input" type="text" name="" id=""> <svg class="modal-form-icon" width="13" height="13">
         <use href="./images/icons.svg#phone"></use>
       </svg></div>
-      <label for="user_email">Email</label>
-      <div><input type="text" name="" id=""><svg class=" " width="20" height="20">
+      <label class="title-modal-input" for="user_email">Email</label>
+      <div class="modal-form-field"><input class="modal-form-input" type="text" name="" id=""><svg class="modal-form-icon" width="15" height="12">
         <use href="./images/icons.svg#email"></use>
-      </svg>
-      <textarea name="Comment" id="" cols="30" rows="10">   Text input</textarea>
-      </form> </div>
+      </svg></div>
+       <label class="title-modal-input" for="user_message">Comment</label>
+      <textarea  class="modal-form-message" name="user_message" id="" cols="30" rows="5" placeholder="Text input"></textarea>
+      <label class="modal-form-agreement" for="">
+        <input class="modal-form-agrement-box" type="checkbox" name="user_agreement"/>
+        <span class="modal-form-agreement-text">
+          I accpet the terms and conditions of the 
+          <a class="modal-form-agreement-link" href="">Privacy Policy</a>
+        </span>
+      </label>
+      <button class="modal-btn" type="submit">Send</button>
+      </form> 
       </div>
     </div>
     <script src="./js/modal.js"></script>
