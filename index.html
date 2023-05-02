@@ -56,7 +56,7 @@
       <section class="main-title overlay">
         <div class="container container-main ">
           <h1 class="main-text ">Effective Solutions for Your Business</h1>
-          <button  class="button pointer" type="button"data-modal-open>Order Service</button>
+          <button  class="button pointer" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- Section 1 -->
@@ -415,14 +415,13 @@
         <p class="subscribe-social-footer">Subscribe</p>
         <form class="modal-form" name="signup_form" autocomplete="on" novalidate>
           <label class="email-form">
-          <input class="subscribe-input" type="email" name="" placeholder="Email"/>
+          <input class="subscribe-input" type="email" name="user_email" placeholder="Email"/>
           </label>          
           <button class="button-subscribe" type="submit" >Subscribe <svg class="subscribe-icon" width="24" height="20">
             <use href="./images/icons.svg#Letter"></use>
-          </svg></button>
-          </button>
-      </div>
-    </div>
+          </svg></button> 
+          </form>         
+      </div>    
     </footer>
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
@@ -432,19 +431,19 @@
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
       </button>
-      <div><strong class="title-modal">Leave your contacts and we will call you back</strong>
-      <form name="contact-form"> 
+      <strong class="title-modal">Leave your contacts and we will call you back</strong>
+      <form name="contact"> 
       <label class="title-modal-input" for="user_name">Name</label>
       <div class="modal-form-field">
-        <input class="modal-form-input" type="text" name="" id=""> <svg class="modal-form-icon" width="12" height="12">
+        <input class="modal-form-input" type="text" name="user_name" id=""> <svg class="modal-form-icon" width="12" height="12">
         <use href="./images/icons.svg#Name"></use>
       </svg></div>
       <label class="title-modal-input" for="user_phone">Phone</label>
-      <div class="modal-form-field"><input class="modal-form-input" type="text" name="" id=""> <svg class="modal-form-icon" width="13" height="13">
+      <div class="modal-form-field"><input class="modal-form-input" type="text" name="user_phone" id=""> <svg class="modal-form-icon" width="13" height="13">
         <use href="./images/icons.svg#phone"></use>
       </svg></div>
       <label class="title-modal-input" for="user_email">Email</label>
-      <div class="modal-form-field"><input class="modal-form-input" type="text" name="" id=""><svg class="modal-form-icon" width="15" height="12">
+      <div class="modal-form-field"><input class="modal-form-input" type="text" name="user_email" id=""><svg class="modal-form-icon" width="15" height="12">
         <use href="./images/icons.svg#email"></use>
       </svg></div>
        <label class="title-modal-input" for="user_message">Comment</label>
@@ -457,8 +456,7 @@
         </span>
       </label>
       <button class="modal-btn" type="submit">Send</button>
-      </form> 
-      </div>
+      </form>       
     </div>
     <script src="./js/modal.js"></script>
   </body>
