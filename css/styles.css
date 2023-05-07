@@ -825,6 +825,7 @@ margin-bottom: 16px;
           }
           .modal-form-field{
             position: relative;
+            margin-bottom: 8px;
           }
 
           .modal-form-input{
@@ -869,7 +870,7 @@ margin-bottom: 16px;
             letter-spacing: 0.04em;        
             color: #8E8F99;
             margin-bottom: 4px;
-            margin-top: 8px;
+           
          }
          .modal-form-message {
             
